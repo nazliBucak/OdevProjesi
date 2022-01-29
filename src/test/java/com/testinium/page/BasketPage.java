@@ -48,9 +48,9 @@ public class BasketPage {
         methods.click(By.id("button-checkout-continue"));
         methods.waitBySeconds(80);
         methods.sendKeys(By.id("credit-card-owner"),"Nazlı Hilal Bucak");
-        methods.sendKeys(By.id("credit_card_number_1"),"5262");
+        methods.sendKeys(By.id("credit_card_number_1"),"5122");
         methods.waitBySeconds(7);
-        methods.sendKeys(By.id("credit_card_number_2"),"9015");
+        methods.sendKeys(By.id("credit_card_number_2"),"9915");
         methods.waitBySeconds(7);
         methods.sendKeys(By.id("credit_card_number_3"),"2996");
         methods.waitBySeconds(7);
